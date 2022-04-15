@@ -5,6 +5,14 @@
 /.pnp
 .pnp.js
 
+package-lock.json
+.package.json
+./package.json
+/.package.json
+/package.json
+package-lock.json
+./package-lock.json
+
 # testing
 /coverage
 
@@ -33,3 +41,5 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+package-lock.json
+package-lock.json
