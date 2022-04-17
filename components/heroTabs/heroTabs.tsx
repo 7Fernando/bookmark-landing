@@ -39,7 +39,7 @@ const HeroTabs = () => {
               textAlign="center"
               width={"450px"}
             >
-              <Text color={"brand.grayishBlue"} fontWeight="600">
+              <Text color={"brand.grayishBlue"} >
                 Our aim is to make it quick and easy for you to access your
                 favourite websites. Your bookmarks sync between your devices so
                 you can access them on the go.
@@ -112,7 +112,7 @@ const HeroTabs = () => {
                           drag-and-drop interface gives you complete control
                           over how you manage your favourite sites.
                         </Text>
-                        <Button bg="brand.softBlue" color="white"  >
+                        <Button bg="brand.softBlue" color="white"  fontWeight={"500"} >
                           More Info
                         </Button>
                       </Box>
@@ -133,7 +133,7 @@ const HeroTabs = () => {
                         sites in no time at all. No need to trawl through all of
                         your bookmarks.
                       </Text>
-                      <Button bg="brand.softBlue" color="white">
+                      <Button bg="brand.softBlue" color="white" fontWeight={"500"} >
                         More Info
                       </Button>
                     </Box>
@@ -152,7 +152,7 @@ const HeroTabs = () => {
                         Create a shareable link that you can send at the click
                         of a button.
                       </Text>
-                      <Button bg="brand.softBlue" color="white">
+                      <Button bg="brand.softBlue" color="white" fontWeight={"500"} >
                         More Info
                       </Button>
                     </Box>
@@ -266,7 +266,7 @@ const HeroTabs = () => {
                     drag-and-drop interface gives you complete control over how
                     you manage your favourite sites.
                   </Text>
-                  <Button bg="brand.softBlue" color="white">
+                  <Button bg="brand.softBlue" color="white" fontWeight={"500"} >
                     More Info
                   </Button>
                 </TabPanel>
@@ -279,9 +279,9 @@ const HeroTabs = () => {
                     {" "}
                     Our powerful search feature will help you find saved sites
                     in no time at all. No need to trawl through all of your
-                    bookmarks. More Info
+                    bookmarks.
                   </Text>
-                  <Button bg="brand.softBlue" color="white">
+                  <Button bg="brand.softBlue" color="white" fontWeight={"500"} >
                     More Info
                   </Button>
                 </TabPanel>
@@ -296,7 +296,7 @@ const HeroTabs = () => {
                     Create a shareable link that you can send at the click of a
                     button.
                   </Text>
-                  <Button bg="brand.softBlue" color="white">
+                  <Button bg="brand.softBlue" color="white" fontWeight={"500"} >
                     More Info
                   </Button>
                 </TabPanel>
