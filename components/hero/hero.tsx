@@ -10,8 +10,8 @@ const Hero = () => {
         display={["none", "none", "flex", "flex"]}
         justifyContent="space-between"
       >
-        <Box flexWrap="wrap" w="35%" >
-          <Heading display={"flex"} flexWrap="wrap" p="5" >
+        <Box flexWrap="wrap" w="35%">
+          <Heading display={"flex"} flexWrap="wrap" p="5">
             A Simple Bookmark Manager
           </Heading>
           <Text
@@ -32,16 +32,19 @@ const Hero = () => {
             p="6"
             rounded="md"
             m="2"
+            _hover={{ color: "brand.softBlue", bg: "white", border: "2px" }}
           >
             {" "}
             Get it on Chrome
           </Button>
           <Button
             bg={"white"}
+            color="brand.veryDarkBlue"
             variant="solid"
             boxShadow="md"
             p="6"
             rounded="md"
+            _hover={{border: "2px" }}
           >
             {" "}
             Get it on Firefox
@@ -90,7 +93,7 @@ const Hero = () => {
                 </Text>
               </Box>
             </Center>
-            <Center display={"flex"} textAlign={"center"} >
+            <Center display={"flex"} textAlign={"center"}>
               <Box mt="8" left={"0"} right={"0"}>
                 <Button
                   bg={"brand.softBlue"}

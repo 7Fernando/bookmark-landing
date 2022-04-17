@@ -21,114 +21,74 @@ import iconFacebook from "../../assets/icon-facebook.svg";
 const NavBar = () => {
   const [display, changeDisplay] = useState("none");
   return (
-    <Flex position="relative" justify="end">
-      <Flex position="sticky" top="2em" ml="1rem" align="center">
-        {/* Desktop */}
-        {/* <Flex bg="red" mr="350">
-          <Image
-            aria-label="Logo Bookmark"
-            src={logo2}
-            onClick={() => changeDisplay("flex")}
-            //   display={["flex", "flex", "none", "none"]}
-            color="red"
-          />
-        </Flex> */}
-        <Flex display={["none", "none", "flex", "flex"]} mr="20">
-          <NextLink href="/" passHref>
-            <Button
-              as="a"
-              variant="ghost"
-              aria-label="Home"
-              my={8}
-              mr="8"
-              w="100%"
-              _hover={{ color: "brand.softRed" }}
-            >
-              FEATURES
-            </Button>
-          </NextLink>
+    <Flex>
+      {/* Desktop */}
+      <Flex
+        w="90vw"
+        pt="10"
+        pb="10"
+        justifyContent={"space-between"}
+        display={["none", "none", "flex", "flex"]}
+      >
+        <Tag size="sm" colorScheme="transparent" borderRadius="full">
+          <Image src={logo2} alt="photo" />
+        </Tag>
+        <Box>
+          <Button variant={"ghost"} _hover={{ color: "brand.softRed" }}>
+            Features
+          </Button>
+          <Button variant={"ghost"} _hover={{ color: "brand.softRed" }}>
+            Pricing
+          </Button>
+          <Button variant={"ghost"} _hover={{ color: "brand.softRed" }}>
+            Contact
+          </Button>
 
-          <NextLink href="/" passHref>
-            <Button
-              as="a"
-              variant="ghost"
-              aria-label="About"
-              my={8}
-              mr="8"
-              w="100%"
-              _hover={{ color: "brand.softRed" }}
-            >
-              PRICING
-            </Button>
-          </NextLink>
-
-          <NextLink href="/" passHref>
-            <Button
-              as="a"
-              variant="ghost"
-              aria-label="Contact"
-              my={8}
-              mr="8"
-              w="100%"
-              _hover={{ color: "brand.softRed" }}
-            >
-              CONTACT
-            </Button>
-          </NextLink>
-
-          <NextLink href="/" passHref>
-            <Button
-              as="a"
-              variant="outline"
-              aria-label="Login"
-              my={8}
-              w="100%"
-              bg="brand.softRed"
-              color="white"
-              _hover={{
-                color: "brand.softRed",
-                borderColor: "brand.softRed",
-                bg: "white",
-              }}
-              pl="10"
-              pr="10"
-            >
-              LOGIN
-            </Button>
-          </NextLink>
-        </Flex>
-
-        {/* Mobile */}
-
-        {/* <Flex bg="red" mr="5" display={["flex", "flex", "none", "none"]}>
-          <Image
-            aria-label="Logo Bookmark"
-            src={logo2}
-            // onClick={() => changeDisplay("flex")}
-            //   display={["flex", "flex", "none", "none"]}
-            color="red"
-          />
-        </Flex> */}
-        <Center display={["flex", "flex", "none", "none"]} pt="5" pr="5">
-          <Box
-            aria-label="logo2"
-            mr={"125"}
-            ml="15"
-            onClick={() => changeDisplay("flex")}
-            display={["flex", "flex", "none", "none"]}
+          <Button
+            variant={"solid"}
+            bg="brand.softRed"
+            color="white"
+            w="110px"
+            _hover={{
+              bg: "white",
+              color: "brand.softRed",
+              borderColor: "brand.softRed",
+              border: "2px",
+            }}
+            fontWeight="500"
           >
-            <Image aria-label="logo2" src={logo2} />
-          </Box>
-          <IconButton
-            aria-label="Open Menu"
-            bg="white"
-            size="lg"
-            icon={<HamburgerIcon />}
-            onClick={() => changeDisplay("flex")}
-            display={["flex", "flex", "none", "none"]}
-          />
-        </Center>
+            Login
+          </Button>
+        </Box>
       </Flex>
+
+      {/* Mobile */}
+
+      <Center
+        display={["flex", "flex", "none", "none"]}
+        pt="5"
+        pl="5"
+        pr="5"
+        w="100vw"
+        justifyContent={"space-between"}
+      >
+        <Box
+          aria-label="logo2"
+          onClick={() => changeDisplay("flex")}
+          display={["flex", "flex", "none", "none"]}
+        >
+          <Image aria-label="logo2" src={logo2} />
+        </Box>
+
+        <IconButton
+          aria-label="Open Menu"
+          bg="white"
+          size="lg"
+          icon={<HamburgerIcon />}
+          onClick={() => changeDisplay("flex")}
+          display={["flex", "flex", "none", "none"]}
+        />
+      </Center>
 
       {/* Mobile Content */}
       <Flex

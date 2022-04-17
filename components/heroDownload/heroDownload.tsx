@@ -1,16 +1,15 @@
 import {
-  Button,
   Flex,
   Text,
   Heading,
   Box,
   Center,
-  Divider,
 } from "@chakra-ui/react";
 import Image from "next/image";
 import logoChrome from "../../assets/logo-chrome.svg";
 import logoFirefox from "../../assets/logo-firefox.svg";
 import logoOpera from "../../assets/logo-opera.svg";
+import dots from "../../assets/bg-dots.svg";
 const HeroDownload = () => {
   return (
     <Box>
@@ -71,8 +70,10 @@ const HeroDownload = () => {
                   ml="10%"
                   pt="5"
                 >
-                  <Divider variant={"dashed"} bg="brand.grayishBlue"
-                   mb="3" />
+                 
+                  <Box mb="3">
+                    <Image src={dots} alt="dots" />
+                  </Box>
                 </Box>
                 <Box
                   as="button"
@@ -92,8 +93,12 @@ const HeroDownload = () => {
                   pr="5"
                   pl="5"
                   fontWeight={"500"}
-                  _hover={{ color: "brand.softBlue", bg: "white",
-                  border:'2px',borderColor:'brand.softBlue'}}
+                  _hover={{
+                    color: "brand.softBlue",
+                    bg: "white",
+                    border: "2px",
+                    borderColor: "brand.softBlue",
+                  }}
                 >
                   Add & Install Extension
                 </Box>
@@ -112,7 +117,7 @@ const HeroDownload = () => {
                 height={"350px"}
                 width={"250px"}
               >
-                <Box pb="5" >
+                <Box pb="5">
                   <Image src={logoFirefox} alt="logoFirefox" />
                 </Box>
                 <Heading as="h4" size="sm" color="brand.veryDarkBlue">
@@ -128,7 +133,9 @@ const HeroDownload = () => {
                   ml="10%"
                   pt="5"
                 >
-                  <Divider variant={"dashed"} bg="brand.grayishBlue" mb="3" />
+                 <Box mb="3">
+                    <Image src={dots} alt="dots" />
+                  </Box>
                 </Box>
                 <Box
                   as="button"
@@ -148,8 +155,12 @@ const HeroDownload = () => {
                   pr="5"
                   pl="5"
                   fontWeight={"500"}
-                  _hover={{ color: "brand.softBlue", bg: "white",
-                  border:'2px',borderColor:'brand.softBlue'}}
+                  _hover={{
+                    color: "brand.softBlue",
+                    bg: "white",
+                    border: "2px",
+                    borderColor: "brand.softBlue",
+                  }}
                 >
                   Add & Install Extension
                 </Box>
@@ -166,7 +177,7 @@ const HeroDownload = () => {
                 my="85"
                 width={"250px"}
               >
-                <Box pb="5" >
+                <Box pb="5">
                   <Image src={logoOpera} alt="logoOpera" />
                 </Box>
                 <Heading as="h4" size="sm" color="brand.veryDarkBlue">
@@ -182,7 +193,9 @@ const HeroDownload = () => {
                   ml="10%"
                   pt="5"
                 >
-                  <Divider variant={"dashed"} bg="brand.grayishBlue" mb="3" />
+                 <Box mb="3">
+                    <Image src={dots} alt="dots" />
+                  </Box>
                 </Box>
                 <Box
                   as="button"
@@ -202,8 +215,12 @@ const HeroDownload = () => {
                   pr="5"
                   pl="5"
                   fontWeight={"500"}
-                  _hover={{ color: "brand.softBlue", bg: "white",
-                  border:'2px',borderColor:'brand.softBlue'}}
+                  _hover={{
+                    color: "brand.softBlue",
+                    bg: "white",
+                    border: "2px",
+                    borderColor: "brand.softBlue",
+                  }}
                 >
                   Add & Install Extension
                 </Box>
@@ -268,7 +285,9 @@ const HeroDownload = () => {
                 ml="10%"
                 pt="5"
               >
-                <Divider variant={"dashed"} bg="brand.grayishBlue" mb="3" />
+                <Box mb="3">
+                    <Image src={dots} alt="dots" />
+                  </Box>
               </Box>
               <Box
                 as="button"
@@ -319,7 +338,9 @@ const HeroDownload = () => {
                 ml="10%"
                 pt="5"
               >
-                <Divider variant={"dashed"} bg="brand.grayishBlue" mb="3" />
+                <Box mb="3">
+                    <Image src={dots} alt="dots" />
+                  </Box>
               </Box>
               <Box
                 as="button"
@@ -370,7 +391,9 @@ const HeroDownload = () => {
                 ml="10%"
                 pt="5"
               >
-                <Divider variant={"dashed"} bg="brand.grayishBlue" mb="3" />
+              <Box mb="3">
+                    <Image src={dots} alt="dots" />
+                  </Box>
               </Box>
               <Box
                 as="button"
