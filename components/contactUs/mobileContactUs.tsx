@@ -6,14 +6,14 @@ import {
   FormControl,
   FormErrorMessage,
 } from "@chakra-ui/react";
-import { DesktopContactUsProps } from "./types";
+import { ContactUsProps } from "./types";
 
 const MobileContactUs = ({
   handlerSubmit,
   isError,
   input,
   handleInputChange,
-}: DesktopContactUsProps) => {
+}: ContactUsProps) => {
   return (
     <>
       <Text textAlign={"center"} fontWeight="500" mb="35" letterSpacing={"3px"}>

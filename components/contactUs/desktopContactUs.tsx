@@ -7,14 +7,14 @@ import {
   FormControl,
   FormErrorMessage,
 } from "@chakra-ui/react";
-import { DesktopContactUsProps } from "./types";
+import { ContactUsProps } from "./types";
 
 const DesktopContactUs = ({
   handlerSubmit,
   isError,
   input,
   handleInputChange,
-}: DesktopContactUsProps) => {
+}: ContactUsProps) => {
   return (
     <Box width={"70vw"} ml="15vw" textAlign="center" justifyContent={"center"}>
       <Box mb="45">

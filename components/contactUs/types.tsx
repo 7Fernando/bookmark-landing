@@ -1,4 +1,4 @@
-export interface DesktopContactUsProps {
+export interface ContactUsProps {
     handlerSubmit: Function;
     isError: boolean;
     input: string;

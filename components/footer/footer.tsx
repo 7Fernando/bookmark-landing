@@ -12,7 +12,7 @@ const Footer = () => {
         mt="-20"
         display={["none", "none", "block", "block"]}
       >
-        <DesktopFooter></DesktopFooter>
+        <DesktopFooter/>
       </Box>
       
       {/* Mobile version */}
@@ -23,7 +23,7 @@ const Footer = () => {
         mt="-20"
         display={["block", "block", "none", "none"]}
       >
-        <MobileFooter></MobileFooter>
+        <MobileFooter/>
       </Box>
     </Box>
   );

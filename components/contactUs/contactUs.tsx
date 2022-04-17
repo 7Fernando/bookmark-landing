@@ -40,7 +40,7 @@ const ContactUs = (): JSX.Element => {
           isError={isError}
           input={input}
           handleInputChange={handleInputChange}
-        ></DesktopContactUs>
+        />
       </Flex>
 
       {/* Mobile version */}
@@ -50,7 +50,7 @@ const ContactUs = (): JSX.Element => {
           isError={isError}
           input={input}
           handleInputChange={handleInputChange}
-        ></MobileContactUs>
+        />
       </Flex>
     </Box>
   );
