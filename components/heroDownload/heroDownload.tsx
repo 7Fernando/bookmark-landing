@@ -10,7 +10,7 @@ import logoChrome from "../../assets/logo-chrome.svg";
 import logoFirefox from "../../assets/logo-firefox.svg";
 import logoOpera from "../../assets/logo-opera.svg";
 import dots from "../../assets/bg-dots.svg";
-const HeroDownload = () => {
+const HeroDownload = ():JSX.Element => {
   return (
     <Box>
       {/* Desktop version */}

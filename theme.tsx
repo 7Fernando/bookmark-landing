@@ -16,6 +16,7 @@ const brand = {
   grayishBlue: "#9194a1",
   veryDarkBlue: "#252b46",
 };
+
 const theme = extendTheme({
   breakpoints,
   colors: { brand },

@@ -18,7 +18,7 @@ import logo2 from "../../assets/logo-bookmark2.svg";
 import iconTwitter from "../../assets/icon-twitter.svg";
 import iconFacebook from "../../assets/icon-facebook.svg";
 
-const NavBar = () => {
+const NavBar = ():JSX.Element => {
   const [display, changeDisplay] = useState("none");
   return (
     <Flex>

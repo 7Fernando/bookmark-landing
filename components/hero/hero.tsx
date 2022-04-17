@@ -1,7 +1,7 @@
 import { Button, Flex, Text, Heading, Box, Center } from "@chakra-ui/react";
 import computerImg from "../../assets/illustration-hero.svg";
 import Image from "next/image";
-const Hero = () => {
+const Hero = ():JSX.Element => {
   return (
     <Flex>
       {/* Desktop version */}

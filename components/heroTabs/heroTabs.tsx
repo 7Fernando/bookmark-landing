@@ -17,7 +17,7 @@ import tab1 from "../../assets/illustration-features-tab-1.svg";
 import tab2 from "../../assets/illustration-features-tab-2.svg";
 import tab3 from "../../assets/illustration-features-tab-3.svg";
 
-const HeroTabs = () => {
+const HeroTabs = ():JSX.Element => {
   return (
     <Center>
       {/* Desktop version */}
